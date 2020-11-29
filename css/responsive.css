@@ -1,0 +1,184 @@
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .img__intro {
+    margin: 0 auto;
+    width: auto;
+  }
+
+  .img__intro {
+    margin-right: 0px;
+    width: 300px;
+  }
+  
+}
+
+@media (max-width: 425px) {
+  #btn__menu {
+    display: none;
+  }
+
+  .make__money {
+    margin-top: 10px;
+  }
+
+  .form__titulo {
+    margin-top: 10px;
+    font-size: 28px;
+  }
+
+}
+
+@media (max-width: 321px) {
+  .container {
+    padding: 0;
+    margin: 20px auto 0 auto;
+    max-width: 400px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    align-content: center;
+    padding: 15px 0 0 15px;
+  }
+
+  .heading {
+    font-size: 28px;
+    text-align: center;
+    padding: 0 30px;
+    line-height: 28px;
+  }
+
+  .img__intro {
+    width: 300px;
+    margin: 30px auto 0 auto;
+  }
+
+  .li__menu ul  {
+    display: block;
+    margin: 20px 0;
+  }
+
+  .li__menu ul li {
+    display: inline-block;
+  }
+
+  .form__container {
+    flex-wrap: wrap;
+  }
+
+  .cards {
+    margin-bottom: 20px;
+  }
+
+  .grid-300, .grid-400, .grid-470 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  blockquote {
+    padding: 20px 0;
+  }
+
+  .quote p {
+    font-family: IBM Plex Sans, sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    font-style: italic;
+    max-width: 600px;
+    color: white;
+    padding-top: 0px;
+  }
+  
+  .quote cite {
+    font-family: IBM Plex Sans, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    font-style: italic;
+    color: rgba(154, 154, 154, 1)
+  }
+  
+  .quote div {
+    display: block;
+    max-width: 700px;
+  }
+  
+  .btn__investnow {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .make__money h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .mm__item {
+    margin: 0 auto 20px auto;
+  }
+
+  .mm__btn {
+    margin: 30px auto 0 auto;
+  }
+
+  .form__container {
+    width: 100%;
+  }
+
+  .form__container input { width: 100%;}
+
+  .form__titulo {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .bg-form {
+    margin: 0 auto;
+  }
+
+  .form_container_right {
+    margin: 60px auto;
+  }
+
+  .footer {
+    padding: 15px 5%;
+  }
+
+  .grid-300, .grid-400, .grid-470 {
+    margin: 20px 0;
+  }
+
+  .copy {
+    padding: 10px;
+    text-align: center;
+  }
+
+}
+
+
+
+@media (min-width: 820px) and (max-width: 1025px) {
+  .cards {
+    background-color: var(--write-color);
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px #0000004A;
+    margin: 15px;
+    padding: 15px;
+  }
+}
