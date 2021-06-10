@@ -46,7 +46,7 @@
   .container {
     flex-direction: column;
     align-content: center;
-    padding: 15px 0 0 15px;
+    padding: 15px 0;
   }
 
   .heading {
